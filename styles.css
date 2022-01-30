@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(25, 129, 129);
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    align-items: center;
+    gap: 20px;
+}
+
+.fruits__form{
+    background: rgb(73, 75, 75);
+    margin: 0px auto;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 15px rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 2em 2em;
+}
+
+.fruits__form h2{
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.fruits__form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fruits__form form input{
+    width: 20em;
+    height: 2em;
+    margin: 10px;
+    padding: 5px;
+    font-size: 1.2em;
+    font-weight: 700;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: rgb(73, 75, 75);
+}
+
+.fruits__form form input::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+.fruits__form button{
+    margin: 0px;
+    margin-top:4em;
+    padding: 10px;
+    width: 15em;
+    font-size: 1.2em;
+    color: rgb(255,255,255);
+    background: rgb(224, 174, 108);
+    border-radius: 20px;
+    border: 2px solid wheat;
+}
+
+.fruits__form button:hover{
+    cursor: pointer;
+    background:rgb(73, 75, 75) ;
+    color: white;
+}
+
+.card{
+    width: 33em;
+    height: 7em;
+    margin-top: 20px;
+    padding: 1em;
+    padding-bottom: 0;
+    background-color: rgb(73, 75, 75);
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.card-body {
+    display: grid;
+    grid-template-columns: 2fr auto;
+}
+
+.card-body .card-content p{
+    margin-bottom: 5px;
+    font-size: 1.9em;
+    text-transform: uppercase;
+}
+
+.card-body .card-content a{
+    padding: .4em;
+    font-size: 1em;
+    background: rgb(231, 100, 100);
+    border-radius: 20px;
+}
+
+.card-body .card-content a:hover{
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow: 2px 3px 15px rgb(243, 136, 136);
+}
+
+.card-img{
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+    background: gray;
+    border: 5px solid white;
+    border-radius: 50%;
+    
+}
+
+.card-img img{
+    width: 100%;
+}
